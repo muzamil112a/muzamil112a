@@ -11,7 +11,7 @@ Full-stack developer from Pakistan. I build web apps and free online tools that 
 | [**Orbitool**](https://github.com/muzamil112a/orbitool) · [live](https://orbitool.online) | Free online tools: PDF translator (37 languages), merge and compress PDFs, QR codes, passport photos, CV maker with ATS check, invoices, video captions | JavaScript, Node.js, Express, Vercel |
 | [**Portfolio**](https://github.com/muzamil112a/muzammil-portfolio) · [live](https://muzammil-portfolio-ashen.vercel.app) | My personal portfolio with 3D and scroll animations | React, Vite, Tailwind CSS, GSAP, Three.js |
 | [**Node.js CRUD API**](https://github.com/muzamil112a/nodejs-crud) | A small REST API with create, read, update and delete | Node.js, Express |
-| [**NAME.exe**](https://github.com/muzamil112a/name-exe) | A playful interactive page: "Your name has escaped!" | HTML, CSS, JavaScript |
+| [**NAME.exe**](https://github.com/muzamil112a/name-exe) · [live](https://muzamil112a.github.io/name-exe/) | A playful interactive page: "Your name has escaped!" | HTML, CSS, JavaScript |
 
 ## Tech I work with
 
