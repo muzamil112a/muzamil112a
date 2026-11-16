@@ -17,6 +17,7 @@
 I'm a full-stack developer who likes shipping things people actually use. My main project is **[Orbitool](https://orbitool.online)**: a free, no-sign-up toolbox for PDFs, QR codes, photos, CVs and invoices, built for users in Pakistan, India and the Arab world.
 
 - 🚀 **Building:** Orbitool, from idea to production, solo
+- 📱 **Shipped:** [FocusGuard](https://github.com/muzamil112a/FocusGuard), an Android app to use your phone less (Kotlin · Jetpack Compose)
 - 🎙️ **Led:** [VocaTwin](https://github.com/TahaUser5/voca-twin), an AI voice-cloning & talking-avatar app (Founder & UI Lead, final year project)
 - 🌍 **Focus:** fast, private web tools and multilingual (RTL) UX
 - 💼 **Open to:** full-stack / frontend roles, Lahore or remote
@@ -53,6 +54,37 @@ I'm a full-stack developer who likes shipping things people actually use. My mai
 
 ---
 
+## 📱 FocusGuard: Android app to use your phone less
+
+<a href="https://github.com/muzamil112a/FocusGuard"><img src="https://raw.githubusercontent.com/muzamil112a/FocusGuard/main/docs/banner.png" width="100%" alt="FocusGuard: use your phone less, live more" /></a>
+
+<table>
+<tr>
+<td align="center"><b>3</b><br/>focus levels<br/><sub>Easy · Medium · Extreme</sub></td>
+<td align="center"><b>5</b><br/>namaz reminders a day</td>
+<td align="center"><b>1.4 MB</b><br/>APK size</td>
+<td align="center"><b>0</b><br/>servers needed<br/><sub>all data on the phone</sub></td>
+<td align="center"><b>AI</b><br/>coach in Roman Urdu</td>
+</tr>
+</table>
+
+**What it does**
+- 🎯 **Focus sessions:** block chosen apps for hours or days. Extreme mode can't be stopped early, even by you
+- 🚫 **Blocker:** daily app limits, night lock, office hours, app lock with PIN, adult-content filter that also blocks VPN apps
+- 🕌 **Namaz:** prayer times for Lahore with reminders that keep ringing until you mark it prayed
+- 💬 **AI coach:** knows your streak, tasks and screen time, and checks on your daily work every night
+- 🚨 **Urge help:** calm animated scene, 3D breathing orb, your own reasons and things to do instead
+
+**How it's built**
+- Native Android with **Kotlin + Jetpack Compose** (Material 3), custom 3D animated logo and motion
+- Accessibility service + on-device DNS filter for blocking, exact alarms for namaz
+- Local accounts with a unique ID and PBKDF2-hashed passwords, no Google, no backend
+- AI replies stream in word by word through OpenRouter / NVIDIA models
+
+👉 **[Download APK](https://github.com/muzamil112a/FocusGuard/releases)** · **[Source](https://github.com/muzamil112a/FocusGuard)**
+
+---
+
 ## 🎙️ VocaTwin: AI voice cloning app (team lead)
 
 **Founder & UI Lead** of VocaTwin, our final year project (BS Software Engineering). Record 30 seconds of your voice, clone it, scan your face and get a talking avatar, plus an AI chatbot, all in one Flutter app.
@@ -78,7 +110,7 @@ I'm a full-stack developer who likes shipping things people actually use. My mai
 ## 🧰 Tech stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,vite,tailwind,threejs,nodejs,express,flutter,dart,firebase,python,flask,vercel,git,github&perline=10" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,vite,tailwind,threejs,nodejs,express,kotlin,androidstudio,flutter,dart,firebase,python,flask,vercel,git,github&perline=10" alt="Tech stack" />
 </p>
 
 ---
