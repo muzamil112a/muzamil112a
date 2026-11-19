@@ -21,7 +21,7 @@
 I'm a full-stack developer who likes shipping things people actually use. My main project is **[Orbitool](https://orbitool.online)**: a free, no-sign-up toolbox for PDFs, QR codes, photos, CVs and invoices, built for users in Pakistan, India and the Arab world.
 
 - 🚀 **Building:** Orbitool, from idea to production, solo
-- 📱 **Shipped:** [FocusGuard](https://github.com/muzamil112a/FocusGuard), an Android app to use your phone less (Kotlin · Jetpack Compose)
+- 📱 **Shipped:** [Tazlo](https://github.com/muzamil112a/Tazlo), an Android app to use your phone less (Kotlin · Jetpack Compose)
 - 🎙️ **Led:** [VocaTwin](https://github.com/TahaUser5/voca-twin), an AI voice-cloning & talking-avatar app (Founder & UI Lead, final year project)
 - 🌍 **Focus:** fast, private web tools and multilingual (RTL) UX
 - 🌱 **Learning now:** NestJS backends: JWT auth with persistent login (access + refresh tokens), tested in Postman
@@ -59,9 +59,7 @@ I'm a full-stack developer who likes shipping things people actually use. My mai
 
 ---
 
-## 📱 FocusGuard: Android app to use your phone less
-
-<a href="https://github.com/muzamil112a/FocusGuard"><img src="https://raw.githubusercontent.com/muzamil112a/FocusGuard/main/docs/banner.png" width="100%" alt="FocusGuard: use your phone less, live more" /></a>
+## 📱 Tazlo: Android app to use your phone less
 
 <table>
 <tr>
@@ -86,7 +84,7 @@ I'm a full-stack developer who likes shipping things people actually use. My mai
 - Local accounts with a unique ID and PBKDF2-hashed passwords, no Google, no backend
 - AI replies stream in word by word through OpenRouter / NVIDIA models
 
-👉 **[Download APK](https://github.com/muzamil112a/FocusGuard/releases)** · **[Source](https://github.com/muzamil112a/FocusGuard)**
+👉 **[Download APK](https://github.com/muzamil112a/Tazlo/releases)** · **[Source](https://github.com/muzamil112a/Tazlo)**
 
 ---
 
