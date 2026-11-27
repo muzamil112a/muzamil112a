@@ -21,7 +21,7 @@
 I'm a full-stack developer who likes shipping things people actually use. My main project is **[Orbitool](https://orbitool.online)**: a free, no-sign-up toolbox for PDFs, QR codes, photos, CVs and invoices, built for users in Pakistan, India and the Arab world.
 
 - 🚀 **Building:** Orbitool, from idea to production, solo
-- 📱 **Shipped:** [Tazlo](https://github.com/muzamil112a/Tazlo), an Android app to use your phone less (Kotlin · Jetpack Compose)
+- 📱 **Shipped:** [Tazlo](https://github.com/muzamil112a/tazlo-app), an Android app for focus, app blocking, namaz and sleep (Kotlin · Jetpack Compose)
 - 🎙️ **Led:** [VocaTwin](https://github.com/TahaUser5/voca-twin), an AI voice-cloning & talking-avatar app (Founder & UI Lead, final year project)
 - 🌍 **Focus:** fast, private web tools and multilingual (RTL) UX
 - 🌱 **Learning now:** NestJS backends: JWT auth with persistent login (access + refresh tokens), tested in Postman
@@ -59,32 +59,40 @@ I'm a full-stack developer who likes shipping things people actually use. My mai
 
 ---
 
-## 📱 Tazlo: Android app to use your phone less
+## 📱 Tazlo: focus, blocking, namaz and sleep in one calm app
+
+<p align="center">
+<a href="https://github.com/muzamil112a/tazlo-app"><img src="https://raw.githubusercontent.com/muzamil112a/tazlo-app/main/screenshots/2-today.png" width="24%" alt="Tazlo Today screen" /></a>
+<a href="https://github.com/muzamil112a/tazlo-app"><img src="https://raw.githubusercontent.com/muzamil112a/tazlo-app/main/screenshots/3-block-popup.png" width="24%" alt="Tazlo blocked app screen" /></a>
+<a href="https://github.com/muzamil112a/tazlo-app"><img src="https://raw.githubusercontent.com/muzamil112a/tazlo-app/main/screenshots/5-namaz.png" width="24%" alt="Tazlo Namaz screen" /></a>
+<a href="https://github.com/muzamil112a/tazlo-app"><img src="https://raw.githubusercontent.com/muzamil112a/tazlo-app/main/screenshots/6-stats.png" width="24%" alt="Tazlo Stats screen" /></a>
+</p>
 
 <table>
 <tr>
-<td align="center"><b>3</b><br/>focus levels<br/><sub>Easy · Medium · Extreme</sub></td>
-<td align="center"><b>5</b><br/>namaz reminders a day</td>
-<td align="center"><b>1.4 MB</b><br/>APK size</td>
+<td align="center"><b>5</b><br/>tabs<br/><sub>Today · Focus · Block · Namaz · Coach</sub></td>
+<td align="center"><b>153</b><br/>daily Quran passages<br/><sub>with Urdu meaning</sub></td>
+<td align="center"><b>1.9 MB</b><br/>APK size</td>
 <td align="center"><b>0</b><br/>servers needed<br/><sub>all data on the phone</sub></td>
-<td align="center"><b>AI</b><br/>coach in Roman Urdu</td>
+<td align="center"><b>AI</b><br/>coach with on-phone quick answers</td>
 </tr>
 </table>
 
 **What it does**
-- 🎯 **Focus sessions:** block chosen apps for hours or days. Extreme mode can't be stopped early, even by you
-- 🚫 **Blocker:** daily app limits, night lock, office hours, app lock with PIN, adult-content filter that also blocks VPN apps
-- 🕌 **Namaz:** prayer times for Lahore with reminders that keep ringing until you mark it prayed
-- 💬 **AI coach:** knows your streak, tasks and screen time, and checks on your daily work every night
-- 🚨 **Urge help:** calm animated scene, 3D breathing orb, your own reasons and things to do instead
+- ⏱️ **Tasks with a timer:** chosen apps stay closed while a task runs; office hours with a few short breaks
+- 🚫 **Blocker:** apps blocked all day, website blocker, VPN apps blocked, app lock with PIN, and a calm "this app is blocked" page
+- 🕌 **Namaz:** prayer times (Hanafi), reminders and alarms, on-time and qaza tracking, "pause task for namaz"
+- 📖 **Daily Quran:** a few ayat a day in Arabic with Urdu meaning (Tafheem-ul-Quran), checked ayah by ayah against quran.com
+- 🌙 **Sleep tracker:** night sleep and naps, counted for the day you wake up, with a weekly chart
+- 📊 **Stats & goals:** 10 / 20 / 30-day focus goal and this week vs last week, in plain words
 
 **How it's built**
-- Native Android with **Kotlin + Jetpack Compose** (Material 3), custom 3D animated logo and motion
-- Accessibility service + on-device DNS filter for blocking, exact alarms for namaz
-- Local accounts with a unique ID and PBKDF2-hashed passwords, no Google, no backend
-- AI replies stream in word by word through OpenRouter / NVIDIA models
+- Native Android with **Kotlin + Jetpack Compose** (Material 3), a calm light design with a floating capsule tab bar
+- Accessibility service for blocking and screen time, exact alarms for namaz
+- Local accounts with a unique ID and PBKDF2-hashed passwords, encrypted on-device storage, no backend
+- AI coach through OpenRouter / NVIDIA models, with common questions answered on the phone first
 
-👉 **[Download APK](https://github.com/muzamil112a/Tazlo/releases)** · **[Source](https://github.com/muzamil112a/Tazlo)**
+👉 **[Download APK](https://github.com/muzamil112a/tazlo-app/releases/latest)** · **[Screenshots & details](https://github.com/muzamil112a/tazlo-app)** · source is private
 
 ---
 
